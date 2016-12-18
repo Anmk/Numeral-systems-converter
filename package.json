@@ -1,0 +1,20 @@
+{
+  "name": "Numeral systems converter",
+  "version": "1.0.0",
+  "description": "This widget conversions between all number bases: from binary to hexadecimal",
+  "main": "nsc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrzej Kałowski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "socket.io": "^1.6.0",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
