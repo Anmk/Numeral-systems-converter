@@ -1,0 +1,91 @@
+{{!-- Numbers area --}}
+<div id="numbers-area" name="numbers-area-name">
+  
+  {{!-- Header --}}
+  <header class="page-header">
+    <h1>{{ title }}</h1>
+    <h2>{{ content }}</h2>
+    <p>{{ info1 }}</p>
+    <p>{{ info2 }}</p>
+  </header>
+
+  {{!-- Obtaining form data --}}
+  <form name="form" class="form-style" action="" novalidate>
+    <section class="view">
+      <div class="section-input">
+        <input name="source-system-input" type="text" class="form-control" placeholder="Source system" required>
+      </div>
+
+      <div class="section-input">
+        <input name="target-system-input" type="text" class="form-control" placeholder="Target system" required>
+      </div>
+
+      <div class="section-input">
+        <input name="number-to-convert-input" type="text" class="form-control" placeholder="Number to convert" required>
+      </div>
+
+      <div class="section-input">
+        <button name="convert-button" type="submit" class="btn btn btn-primary btn-block">Convert</button>
+      </div>
+    </section>
+  </form>
+
+  {{!-- Section results --}}
+  <section name="outcome" class="view section-outcome-all">
+    <div name="source-outcome-group" class="section-outcome-group">
+      <h3 name="source-outcome-description" class="section-description">Source system</h3>
+      <div name="source-outcome" class="section-outcome"></div>
+    </div>
+
+    <div name="target-outcome-group" class="section-outcome-group">
+      <h3 name="target-outcome-description" class="section-description">Target system</h3>
+      <div name="target-outcome" class="section-outcome"></div>
+    </div>
+
+    <div name="number-to-convert-outcome-group" class="section-outcome-group">
+      <h3 name="number-to-convert-outcome-description" class="section-description">Number to convert</h3>
+      <div name="number-to-convert-outcome" class="section-outcome"></div>
+    </div>
+
+    <div name="number-to-convert-outcome-group" class="section-outcome-group">
+      <h3 name="outcome-number-description" class="section-description">Result</h3>
+      <div name="outcome-number" class="section-outcome"></div>
+    </div>
+  </section>
+
+  <script for="source-outcome" type="text/x-handlebars-template">
+    <div class="source-outcome-line">
+      <h3 class="source-outcome-line-message">{{ sourceMessage }}</h3>
+    </div>
+  </script>
+
+  <script for="target-outcome" type="text/x-handlebars-template">
+    <div class="target-outcome-line">
+      <h3 class="target-outcome-line-message">{{ targetMessage }}</h3>
+    </div>
+  </script>
+
+  <script for="number-to-convert-outcome" type="text/x-handlebars-template">
+    <div class="number-to-convert-line">
+      <h3 class="number-to-convert-line-message">{{ numberToConvertMessage }}</h3>
+    </div>
+  </script>
+
+  <script for="outcome-number" type="text/x-handlebars-template">
+    <div class="outcome-number-line">
+      <h3 class="outcome-number-line-message">{{ outcomeMessage }}</h3>
+    </div>
+  </script>
+
+  {{!-- Section alerts --}}
+  <section class="validate-alert">
+    <ul>
+    </ul>
+  </section>
+  
+  {{!-- Footer --}}
+  <footer class="page-footer">
+  </footer>
+
+</div>
+{{!-- /Numbers area --}}
