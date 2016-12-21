@@ -28,4 +28,4 @@ nodemon nsc
 ## Some screenshots of the application
 :iphone:
 
-![mobile01](https://cloud.githubusercontent.com/assets/5839775/21331035/ca93871c-c640-11e6-8af8-d08013d4c4b7.jpg)
+![mobile02](https://cloud.githubusercontent.com/assets/5839775/21409516/04da90c8-c7db-11e6-858a-cf5936758fe6.jpg)
