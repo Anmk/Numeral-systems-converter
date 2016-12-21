@@ -19,6 +19,7 @@ var NumberClient4 = new NumberClient(document.querySelector("#numbers-area4"));
 ```
 
 ## How to run
+In an environment Node.js (I used version 7.2.0):
 ```
 npm install
 nodemon nsc
