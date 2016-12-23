@@ -1,0 +1,56 @@
+/* ====================================================================================
+ *  Project: Numeral systems converter
+ *  Author: Andrzej Kałowski
+ *  $id: media-queries.css
+ *  =================================================================================== */
+
+/* Shared ============================================================================= */
+
+@media all and (max-width: 767px) {
+  
+  .section-outcome-group {
+    width: 100%;
+  }
+
+  .section-description {
+    height: 2em;
+    margin: 0 auto;
+  }
+
+}
+
+@media all and (min-width: 768px) {
+  
+  .section-input {
+    width: 24%;
+    display: inline-block;
+  }
+
+  .section-outcome-group {
+    width: 24%;
+    display: inline-block;
+  }
+
+  .section-description {
+    margin: 0 auto 1em auto;
+  }
+
+}
+
+/* Alert ============================================================================== */
+
+@media all and (max-width: 767px) {
+
+  .validate-alert {
+    width: 100%;
+  }
+
+}
+
+@media all and (min-width: 768px) {
+
+  .validate-alert {
+    width: 65%;
+  }
+
+}
