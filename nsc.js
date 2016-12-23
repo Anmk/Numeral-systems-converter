@@ -12,7 +12,7 @@ app.use( express.static("public") );
 
 app.get("/", function(req, res) {
 
-  var styles = ["reset.css", "bootstrap.min.css", "layout.css"],
+  var styles = ["reset.css", "bootstrap.min.css", "layout.css", "media-queries.css"],
       urls = ["fonts.googleapis.com/css?family=Lato", "fonts.googleapis.com/css?family=Indie+Flower"],
       scripts = ["handlebars.min.js", "socket.io.min.js", "scripts.js"],
       title = "NSC",
