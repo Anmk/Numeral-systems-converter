@@ -5,9 +5,9 @@ This widget conversions between all number bases: from binary to hexadecimal. I 
 
 ## Usage
 In the file: *public/js/scripts.js* you can choose scroll options:
-* *"fit"* - view will be scrolled to the result
-* *"bottom"* - view will be scrolled to the bottom of the page
-* *"none"* -  view will not at all scrolled
+* *`fit`* - view will be scrolled to the result
+* *`bottom`* - view will be scrolled to the bottom of the page
+* *`none`* -  view will not at all scrolled
 ```javascript
 var NumberClient1 = new NumberClient(document.querySelector("#numbers-area"), "fit");
 var NumberClient2 = new NumberClient(document.querySelector("#numbers-area2"), "bottom"); 
@@ -33,5 +33,5 @@ nodemon nsc
 
 ![desktop01](https://cloud.githubusercontent.com/assets/5839775/21466847/74cb8cfe-c9d7-11e6-8876-7ba64b69a6f2.jpg)
 ![desktop02](https://cloud.githubusercontent.com/assets/5839775/21466859/e31a123e-c9d7-11e6-8aac-6797e9484beb.jpg)
-===
+***
 ![desktop03](https://cloud.githubusercontent.com/assets/5839775/21466861/f2398880-c9d7-11e6-8b80-a6dd82651967.jpg)
