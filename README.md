@@ -24,6 +24,8 @@ In an environment Node.js (I used version 7.3.0):
 npm install
 nodemon nsc
 ```
+The application converts between number bases:
+binary (2), ternary (3), quaternary (4), quinary (5), senary (6), septem (7), octal (8), nonal (9), decimal (10), undecimal (11), duodecimal (12), tridecimal (13), tetradecimal (14), pentadecimal (15), hexadecimal (16).
 
 ## Some screenshots of the application
 :iphone:
@@ -33,5 +35,5 @@ nodemon nsc
 
 ![desktop01](https://cloud.githubusercontent.com/assets/5839775/21466847/74cb8cfe-c9d7-11e6-8876-7ba64b69a6f2.jpg)
 ![desktop02](https://cloud.githubusercontent.com/assets/5839775/21466859/e31a123e-c9d7-11e6-8aac-6797e9484beb.jpg)
-***
+===
 ![desktop03](https://cloud.githubusercontent.com/assets/5839775/21466861/f2398880-c9d7-11e6-8b80-a6dd82651967.jpg)
