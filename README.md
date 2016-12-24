@@ -17,6 +17,7 @@ If you do not choose any option, the default will be to place the result.
 ```javascript
 var NumberClient4 = new NumberClient(document.querySelector("#numbers-area4"));
 ```
+The application converts between number bases: binary (2), ternary (3), quaternary (4), quinary (5), senary (6), septem (7), octal (8), nonal (9), decimal (10), undecimal (11), duodecimal (12), tridecimal (13), tetradecimal (14), pentadecimal (15), hexadecimal (16).
 
 ## How to run
 In an environment Node.js (I used version 7.3.0):
@@ -24,8 +25,6 @@ In an environment Node.js (I used version 7.3.0):
 npm install
 nodemon nsc
 ```
-The application converts between number bases:
-binary (2), ternary (3), quaternary (4), quinary (5), senary (6), septem (7), octal (8), nonal (9), decimal (10), undecimal (11), duodecimal (12), tridecimal (13), tetradecimal (14), pentadecimal (15), hexadecimal (16).
 
 ## Some screenshots of the application
 :iphone:
