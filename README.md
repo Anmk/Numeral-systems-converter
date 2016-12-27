@@ -41,6 +41,5 @@ nodemon nsc
 
 ![desktop03](https://cloud.githubusercontent.com/assets/5839775/21466861/f2398880-c9d7-11e6-8b80-a6dd82651967.jpg)
 :computer:
-===
 
 ![desktop04](https://cloud.githubusercontent.com/assets/5839775/21505125/d0cb82f4-cc64-11e6-88ef-65591857da8c.jpg)
