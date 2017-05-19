@@ -1,7 +1,7 @@
 # Numeral systems converter
 
 ## Introduction
-This widget conversions between all number bases: from binary to hexadecimal. I used JavaScript, Node.js, Express, Express Handlebars, Socket.io and CSS technologies. There is responsive project. Input data is validated. Widget works independently after placing it several times on the website. 
+This widget can make conversion between all number bases: from binary to hexadecimal. I used JavaScript, Node.js, Express, Express Handlebars, Socket.io and CSS technologies. There is responsive project. Input data is validated. Widget works independently after placing it several times on the website. 
 
 ## Usage
 In the file: *public/js/scripts.js* you can choose scroll options:
