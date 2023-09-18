@@ -1,4 +1,5 @@
 # Numeral systems converter
+![GitHub repo size](https://img.shields.io/github/repo-size/anmk/numeral-systems-converter?style=plastic)
 
 ## Introduction
 This widget can make conversion between all number bases: from binary to hexadecimal. I used JavaScript, Node.js, Express, Express Handlebars, Socket.io and CSS technologies. There is responsive project. Input data is validated. Widget works independently after placing it several times on the website. 
